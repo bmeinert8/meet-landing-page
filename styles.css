@@ -1,0 +1,124 @@
+/* CSS VARIABLES*/
+
+:root {
+  /* Colors */
+  --Cyan-600: #4D96A9;
+  --Cyan-300: #8FE3F9;
+  --Purple-600: #855FB1;
+  --Purple-300: #D9B8FF;
+  --Slate-900: #28283D;
+  --Slate-600: #87879D;
+  --Slate-300: #D1D1DF;
+  --White: #FAFAFA;
+
+  /* Font */
+  --Font-Primary: "Red Hat Display", sans-serif;
+
+  /* Spacing */
+  --S-1400: 7rem;
+  --S-1000: 5rem;
+  --S-900: 4.5rem;
+  --S-800: 4rem;
+  --S-700: 3.5rem;
+  --S-500: 2.5rem;
+  --S-400: 2rem;
+  --S-300: 1.5rem;
+  --S-200: 1rem;
+  --S-100: 0.5rem;
+  --S-50: 0.25rem;
+}
+
+/* MODERN CSS RESET */
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+/*TYPOGRAPHY*/
+
+.text-preset-1 {
+  font-family: var(--Font-Primary);
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 110%; /* 4.4rem */
+}
+
+.text-preset-2 {
+  font-family: var(--Font-Primary);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 110%; /* 2.75rem */
+}
+
+.text-preset-3 {
+  font-family: var(--Font-Primary);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 110%; /* 1.65rem */
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+.text-preset-4 {
+  font-family: var(--Font-Primary);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 1.6875rem */
+}
+
+.text-preset-5 {
+  font-family: var(--Font-Primary);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150%; /* 1.5rem */
+}
+
