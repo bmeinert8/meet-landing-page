@@ -1,0 +1,5 @@
+@media (min-width: 90rem) {
+  header {
+    margin: var(--S-1000) var(--S-1000) 0 var(--S-1000);
+  }
+}

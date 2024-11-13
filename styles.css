@@ -122,3 +122,21 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 150%; /* 1.5rem */
 }
 
+/*LAYOUT*/
+
+/* Nav Section */
+header {
+  margin: 3rem var(--S-1000) 0 var(--S-1000);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+
+
+.nav-logo {
+  width: 7.38rem;
+  height: 1.75rem;
+  background: url(./assets/logo.svg) transparent 50% / cover no-repeat;
+}
